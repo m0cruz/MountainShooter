@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e94e4730-d6e6-4777-ae7f-6068c0941d30" name="Changes" comment="Creating player shot&#10;Creating enemy shot">
+    <list default="true" id="e94e4730-d6e6-4777-ae7f-6068c0941d30" name="Changes" comment="Implementing level 2&#10;Implementing persistent score between levels">
+      <change afterPath="$PROJECT_DIR$/code/DBProxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +65,7 @@
     "Python.Level.executor": "Run",
     "Python.Menu.executor": "Run",
     "Python.Player.executor": "Debug",
+    "Python.Score.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -157,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782511553251</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implementing level 2&#10;Implementing persistent score between levels">
+      <option name="closed" value="true" />
+      <created>1782572320762</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1782572320762</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +189,8 @@
     <MESSAGE value="Creating Players and Enemies&#10;Moving players and Enemies" />
     <MESSAGE value="Creating Mediator Pattern&#10;Enemies destruction" />
     <MESSAGE value="Creating player shot&#10;Creating enemy shot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating player shot&#10;Creating enemy shot" />
+    <MESSAGE value="Implementing level 2&#10;Implementing persistent score between levels" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing level 2&#10;Implementing persistent score between levels" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
